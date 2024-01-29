@@ -1,0 +1,77 @@
+{
+    margin: 0
+    padding: 0
+}
+
+header{
+    background-image: url(../silky.jpg);
+    height: 150vh;
+    background-size: cover;
+    background-position-x: center;
+}
+
+ul{
+    float: left;
+    list-style-type: none;
+    margin-block-start: 25px;
+}
+ul li {
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #725c3a;
+    padding: 5px 20px;
+    border: 1px solid #725c3a;
+}
+
+ul li a:hover{
+    background-color: #809671;
+    color: #809671s;
+}
+
+.title{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #FAEBD7;
+    font-size: 70px;
+}
+
+
+.home_page {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 45%;
+        border: 12px solid #b3b792
+      }
+
+.button{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #b3b792;
+    padding: 10px 30px;
+    color: #809671;
+    text-decoration: none;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.btn{
+    background-color: #e5e0d8;
+    color: #725c3a;
+}
+.btn:hover{
+    background-color: #809671;
+    color: #809671s;
+}
